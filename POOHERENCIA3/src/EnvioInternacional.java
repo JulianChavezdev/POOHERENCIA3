@@ -28,7 +28,7 @@ public class EnvioInternacional extends Envio {
     }
 
     public double getCosteTotal(){
-        return getCosteTotal()+tasaAduanas;
+        return getCosteBase()+ (getCosteBase()+this.tasaAduanas/100);
     }
     @Override
     public String toString() {

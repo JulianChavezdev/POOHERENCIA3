@@ -17,7 +17,7 @@ public class EnvioUrgente extends Envio{
         this.recargo = recargo;
     }
     public double getCosteTotal(){
-        return getCosteTotal() + this.recargo;
+        return getCosteTotal() + (this.getCosteBase()+this.recargo/100);
     }
     @Override
     public String toString() {
