@@ -2,8 +2,8 @@ public class EnvioInternacional extends Envio {
     private double tasaAduanas;
     private String paisDestino;
 
-    public EnvioInternacional(String codigo, String destino, double peso, double conteBase, double tasaAduanas, String paisDestino) {
-        super(codigo, destino, peso, conteBase);
+    public EnvioInternacional(String codigo, String destino, double peso, double costeBase, double tasaAduanas, String paisDestino) {
+        super(codigo, destino, peso, costeBase);
         this.tasaAduanas = tasaAduanas;
         this.paisDestino = paisDestino;
     }

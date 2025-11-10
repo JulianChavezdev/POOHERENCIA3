@@ -4,8 +4,8 @@ public class EnvioUrgente extends Envio{
     public EnvioUrgente() {
     }
 
-    public EnvioUrgente(String codigo, String destino, double peso, double conteBase, double recargo) {
-        super(codigo, destino, peso, conteBase);
+    public EnvioUrgente(String codigo, String destino, double peso, double costeBase, double recargo) {
+        super(codigo, destino, peso, costeBase);
         this.recargo = recargo;
     }
 
