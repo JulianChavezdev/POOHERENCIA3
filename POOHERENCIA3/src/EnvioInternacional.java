@@ -28,10 +28,10 @@ public class EnvioInternacional extends Envio {
     }
 
     public double getCosteTotal(){
-        return getCosteBase()+ (getCosteBase()+this.tasaAduanas/100);
+        return getCosteBase()+ (getCosteBase()*this.tasaAduanas/100);
     }
     @Override
     public String toString() {
-        return "Envio Internacional " +this.codigo+ " con destino " +this.destino +" ( " +this.paisDestino+ " ( ";
+        return "Envio Internacional " +this.codigo+ " con destino " +this.destino +" ( " +this.paisDestino+ " ) ";
     }
 }
