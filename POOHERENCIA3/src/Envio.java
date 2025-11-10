@@ -15,7 +15,7 @@ public class Envio {
     }
 
     public double getCosteTotal() {
-        return this.costeBase = 0;
+        return this.costeBase;
     }
 
     public boolean esPesado(){
@@ -24,7 +24,7 @@ public class Envio {
 
     @Override
     public String toString() {
-        return this.codigo + " con destino " +this.destino;
+        return "Envio " +this.codigo + " con destino " +this.destino;
     }
 
 }
