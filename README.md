@@ -8,7 +8,7 @@ El objetivo es modelar una jerarquía de clases en Programación Orientada a Obj
 
 ## 1. Clase Base: `Envio`
 
-Representa un envío genérico. Es la clase "madre" de todas las demás. No la líes.
+Representa un envío genérico. Es la clase "madre" de todas las demás.
 
 ### Atributos
 * `codigo` (String)
